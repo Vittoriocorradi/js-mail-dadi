@@ -1,0 +1,71 @@
+/*
+--------
+RESET
+--------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+--------
+TYPO
+--------
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main .container h1,
+main .container .btn {
+    text-transform: uppercase;
+}
+
+main .container h1 {
+    color: #fff;
+}
+
+/*
+--------
+BODY
+--------
+*/
+
+body {
+    height: 100vh;
+    background-color: #28344d;
+}
+
+/*
+--------
+MAIN
+--------
+*/
+
+main {
+    padding-top: 5.625rem;
+}
+
+main .container {
+    max-width: 71.25rem;
+    margin: auto;
+    text-align: center;
+}
+
+main .container .btn {
+    height: 6.25rem;
+    width: 25rem;
+    font-family: inherit;
+    font-size: 1.5em;
+    font-weight: 800;
+    background-color: #d97b4f;
+    margin-top: 4.6875rem;
+    border-radius: .625rem;
+    box-shadow: 0 4px 10px 5px #5aa4ff;
+    color: #2b0842;
+    cursor: pointer;
+}
